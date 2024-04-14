@@ -20,32 +20,28 @@ public class DiscountOnAProduct {
 		//System.out.println("Enter Your Promo Code: ");
 		//promo=read.next();
 		
-		isanypromocode=((promo==Promo5)||(promo==Promo10)||(promo==Promo5));
-		if(isanypromocode){
+		if(promo==Promo5) {
 			System.out.println("Enter Your Promo Code: ");
 			promo=read.next();
-			Promo5=promo;
+			
 			System.out.println("You have 5% Extra discount on your Promo Code ");
 			discount=5;
 			value=100-5;
 			discountedvalue=(value*actualValue/100);
 			System.out.println("Final Discounted value :"+discountedvalue);
-		
-			}
-		if(isanypromocode) {
+		}else if(promo==Promo10){
 			System.out.println("Enter Your Promo Code: ");
 			promo=read.next();
-				Promo10=promo;
+				
 				System.out.println("You have 10% Extra discount on your Promo Code ");
 				discount=10;
 				value=100-10;
 				discountedvalue=(value*actualValue/100);
 				System.out.println("Final Discounted value: "+discountedvalue);
-			}
-		if(isanypromocode) {
+			}else if(promo==Promo20) {
 			System.out.println("Enter Your Promo Code: ");
 				promo=read.next();
-				Promo20=promo;
+				
 				
 				System.out.println("You have 20% Extra discount on your Promo Code ");
 				discount=20;
@@ -53,9 +49,10 @@ public class DiscountOnAProduct {
 				discountedvalue=(value*actualValue/100);
 				System.out.println("Final Discounted value :"+discountedvalue);
 			}
+		}
 		
 	}
-}
+
 	
 
 
