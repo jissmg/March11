@@ -6,8 +6,6 @@ public class PizzaBillMain {
 
 		PizzaBilling pizza = new PizzaBilling();
 		pizza.pizzaBillingSwitchCase();
-		// pizza.addToppings();
-
 	}
 
 }
