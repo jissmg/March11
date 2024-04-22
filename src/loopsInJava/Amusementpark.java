@@ -15,9 +15,10 @@ public class Amusementpark {
 			} else {
 				System.out.println("Sorry you didn't meet the height criteria! ");
 				i = i - 1;
+			}if(i>10) {
+				System.out.println("Sorry Only 10 peoples are allowed, Please choose the next round");
 			}
 		}
-		System.out.println("Sorry Only 10 peoples are allowed, Please choose the next round");
 	}
 
 }
