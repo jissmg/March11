@@ -7,28 +7,28 @@ public class AccountsMain {
 	public static void main(String[] args) {
 
 		Account jerinAccount = new Account();
-		jerinAccount.accountNumber = "123456789";
-		jerinAccount.nameOFAccountHolder = "Jerin Raj";
-		jerinAccount.accountType = "Chequing";
-		jerinAccount.balance = 4567.89;
-		jerinAccount.pin = 1234;
+		//jerinAccount.accountNumber = "123456789";
+		//jerinAccount.nameOFAccountHolder = "Jerin Raj";
+	//	jerinAccount.accountType = "Chequing";
+	//	jerinAccount.balance = 4567.89;
+	//	jerinAccount.pin = 1234;
 
 		String accountNumber = jerinAccount.getAccountNumber();
 		System.out.println("Jerin Account: " + jerinAccount.getAccountNumber());
 
 		Account ravneetAccount = new Account();
-		ravneetAccount.accountNumber = "987456321";
-		ravneetAccount.nameOFAccountHolder = "Ravneet Kaur";
-		ravneetAccount.accountType = "Savings";
-		ravneetAccount.balance = 6541.23;
-		ravneetAccount.pin = 4321;
+	//	ravneetAccount.accountNumber = "987456321";
+	//	ravneetAccount.nameOFAccountHolder = "Ravneet Kaur";
+	//	ravneetAccount.accountType = "Savings";
+	//	ravneetAccount.balance = 6541.23;
+	//	ravneetAccount.pin = 4321;
 
 		Account rajinderAccount = new Account();
-		rajinderAccount.accountNumber = "456789123";
-		rajinderAccount.nameOFAccountHolder = "Rajinder Kaur";
-		rajinderAccount.accountType = "Savings";
-		rajinderAccount.balance = 100000;
-		rajinderAccount.pin = 7890;
+	//	rajinderAccount.accountNumber = "456789123";
+	//	rajinderAccount.nameOFAccountHolder = "Rajinder Kaur";
+	//	rajinderAccount.accountType = "Savings";
+	//	rajinderAccount.balance = 100000;
+	//	rajinderAccount.pin = 7890;
 
 //		String[] names = {"Prabhjot", "Arshpreet", "Arshdeep"};
 

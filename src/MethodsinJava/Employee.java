@@ -1,12 +1,12 @@
 package MethodsinJava;
 
 public class Employee {
-	int empId;
+	private int empId;
 	String empName;
-	String empDepartment;
-	String empPosition;
-	String empUsername;
-	String empPassword;
+	public String empDepartment;
+	public String empPosition;
+	private String empUsername;
+	private String empPassword;
 	public Employee(int id, String name,String dep,String pos,String usern,String pass) {
 		empId = id;
 		empName = name;

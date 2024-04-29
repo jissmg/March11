@@ -2,12 +2,12 @@ package MethodsinJava;
 
 public class Account {
 
-	String nameOFAccountHolder;
-	String accountType;
-	String accountNumber;
+	private String nameOFAccountHolder;
+	private String accountType;
+	private String accountNumber;
 
-	double balance;
-	int pin;
+	private double balance;
+	private int pin;
 
 	public String getNameOfAccountHolder() {
 		return nameOFAccountHolder;
