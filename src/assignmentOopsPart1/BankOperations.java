@@ -1,6 +1,6 @@
 package assignmentOopsPart1;
 
-public class BankOperations {
+ public class BankOperations {
 	private double balance;
 
 	public BankOperations(double initialDeposit) {
@@ -27,7 +27,7 @@ public class BankOperations {
 		}
 	}
 
-	public void viewBalance() {
+	final public void viewBalance() {
 		System.out.println("Current Balance: $" + balance);
 	}
 

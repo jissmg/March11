@@ -1,6 +1,6 @@
 package assignmentOopsPart1;
 
-public class Person {
+final public class Person {
 	private String accountNumber;
 	private String name;
 	private double totalFundsAvailable;

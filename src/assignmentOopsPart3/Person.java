@@ -1,9 +1,9 @@
 package assignmentOopsPart3;
 
-public class Person {
+final public class Person {
     private String accountNumber;
     private String accountHolderName;
-    private BankOperations bankingService;
+    static private BankOperations bankingService;
 
     public Person(String accountNumber, String accountHolderName, BankOperations bankingService) {
         this.accountNumber = accountNumber;

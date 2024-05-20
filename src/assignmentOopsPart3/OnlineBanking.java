@@ -1,5 +1,4 @@
 package assignmentOopsPart3;
-
 public class OnlineBanking extends BankingRules implements BankOperations {
     private double balance;
     private String password;

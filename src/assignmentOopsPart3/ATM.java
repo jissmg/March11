@@ -1,4 +1,5 @@
 package assignmentOopsPart3;
+
 public class ATM extends BankingRules implements BankOperations {
     private double balance;
     private int pin;
@@ -55,4 +56,3 @@ public class ATM extends BankingRules implements BankOperations {
         System.out.println("Current Balance: $" + balance);
     }
 }
-

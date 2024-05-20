@@ -1,7 +1,7 @@
 package assignmentOopsPart3;
 
 public abstract class BankingRules {
-    protected int maxAttempts = 3;
+    final protected int maxAttempts = 3;
     protected int attempts = 0;
 
     public abstract int getDailyWithdrawalLimit();
