@@ -1,5 +1,6 @@
 package schoolManagementSystem;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		School school = new School("Springfield High School");
-
+		
 		Teacher teacher1 = new Teacher("Alice Johnson", 30, "Female", "T001", 50000, Arrays.asList("Math", "Physics"));
 		Teacher teacher2 = new Teacher("Manoj M", 40, "Male", "T100", 60000, Arrays.asList("Biology", "Chemistry"));
 		Teacher teacher3 = new Teacher("Anu Jose", 27, "Female", "T003", 30000, Arrays.asList("Economics", "Business"));
@@ -16,7 +17,11 @@ public class Main {
 		school.addTeacher(teacher2);
 		school.addTeacher(teacher3);
 		school.addTeacher(teacher4);
-
+		teacher1.addRating(4);
+		teacher2.addRating(5);
+		teacher3.addRating(4);
+		teacher4.addRating(5);
+	
 		System.out.println("Welcome to Springfield High School Stream Allocation and Teacher Rating System!");
 		System.out.print("Please enter the student's name: ");
 		String studentName = scanner.nextLine();
@@ -35,7 +40,6 @@ public class Main {
 		System.out.println("-- Stream Allocation Result --");
 		System.out.println(student);
 		System.out.println("Allocated Stream: " + student.determineStream());
-		scanner.nextLine(); 
 		
 		// Rating a teacher
 		System.out.print("Please enter the teacher's name you wish to rate: ");

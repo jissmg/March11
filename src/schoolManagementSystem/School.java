@@ -5,14 +5,17 @@ import java.util.List;
 
 public class School {
 	private String name;
-	private List<Teacher> teachers;
-	private List<Student> students;
+	 List<Teacher> teachers=new ArrayList<>();
+	 List<Student> students=new ArrayList<>();
 
 	public School(String name) {
 		super();
-		this.setName(name);
-		this.setTeachers(new ArrayList<>());
-		this.setStudents(new ArrayList<>());
+		this.name = name;
+	}
+
+	public School() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	public List<Student> getStudents() {
@@ -56,8 +59,4 @@ public class School {
 		return null;
 	}
 
-	@Override
-	public String toString() {
-		return "School: " + name + ", Teachers: " + teachers.size() + ", Students: " + students.size();
-	}
 }
